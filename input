@@ -1,0 +1,20 @@
+[Data For Network Simulation Here]
+
+Cache_Replacement_Policy = LRU
+
+Number_Of_Files = 10000
+Total_No_Of_Requests = 30000
+
+File_Request_Rate = 10.0
+Network_Bandwidth = 100
+Access_Link_Bandwidth = 15
+
+Pareto_Alpha = 2
+Cache_Capacity = 200
+
+Max_Time = 600
+Cache_Check_Time = 0.4
+
+[Plots]
+save_plot=True
+show_plot=False
